@@ -36,7 +36,7 @@ jobs:
       - name: 'jd_daydlt'
         run: |
           #sleep 1
-          #Curl https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_monk_pasture.js -o jd_monk_pasture.js
+          
           node jd_jump.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
