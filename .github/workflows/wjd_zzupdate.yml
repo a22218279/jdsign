@@ -11,9 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          repository: hajiuhajiu/jdsign1112
-          ref: master
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -45,8 +43,8 @@ jobs:
           IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
       - name: commit
         run: |
-          git config --global user.name hajiuhajiu
-          git config --global user.email 2705322732@qq.com
+          git config --global user.name hajiuhajiu01
+          git config --global user.email 13305322732@hotmail.com
           git add .
           git commit -m "update by  Github Action" -a || echo "Nothing to update"
         
