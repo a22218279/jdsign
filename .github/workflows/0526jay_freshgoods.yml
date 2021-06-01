@@ -35,7 +35,7 @@ jobs:
       - name: 'jay_freshgoods'
         run: |
           #sleep 1
-          #Curl https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_monk_pasture.js -o jd_monk_pasture.js
+          
           node jay_freshgoods.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
