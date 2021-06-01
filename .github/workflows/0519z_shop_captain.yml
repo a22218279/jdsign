@@ -36,7 +36,7 @@ jobs:
       - name: 'shop_captain'
         run: |
           #sleep 1
-          #Curl https://raw.githubusercontent.com/hajiuhajiu/jdsign1112/master/jd_monk_pasture.js -o jd_monk_pasture.js
+          
           node z_shop_captain.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
