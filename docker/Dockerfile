@@ -1,5 +1,5 @@
 FROM node:lts-alpine
-ARG JD_BASE_URL=https://github.com/hajiuhajiu1/jddocker
+ARG JD_BASE_URL=https://github.com/hajiuhajiu1/jdsing1112
 ARG JD_BASE_BRANCH=main
 ARG JD_SCRIPTS_URL=https://github.com/hajiuhajiu1/jdsing1112.git
 ARG JD_SCRIPTS_BRANCH=main
