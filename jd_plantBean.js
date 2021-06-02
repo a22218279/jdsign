@@ -1,4 +1,4 @@
-H/*
+/*
 种豆得豆 脚本更新地址：https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js
 更新时间：2021-1-16
 活动入口：京东APP我的-更多工具-种豆得豆
