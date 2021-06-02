@@ -123,7 +123,7 @@ if ($.isNode()) {
       if ($.oneInviteInfo.ues === $.UserName || $.oneInviteInfo.max) {
         continue;
       }
-      //console.log($.oneInviteInfo);
+      console.log($.oneInviteInfo);
       $.inviteId = $.oneInviteInfo.inviteId;
       console.log(`${$.UserName}去助力${$.oneInviteInfo.ues},助力码${$.inviteId}`);
       //await takePostRequest('helpHomeData');
