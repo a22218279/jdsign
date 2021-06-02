@@ -33,7 +33,36 @@ const pKHelpAuthorFlag = true;//是否助力作者PK  true 助力，false 不助
 let cookiesArr = [];
 $.cookie = '';
 $.inviteList = [{ ues: 'jd_441027f2a1e0d', secretp: 'ujWhAqRs5O3UsrbpmM7ZUBXR0Hk', inviteId: 'ZXTKT0225KkcRBoY9VbQdhillaIKIAFjRWn6-7zx55awQ', max: false
-},{ ues: 'jd_441027f2a1e0d', secretp: 'ujWhAqRs5O3UsrbpmM7ZUBXR0Hk', inviteId: 'ZXTKT0225KkcRBoY9VbQdhillaIKIAFjRWn6-7zx55awQ', max: false
+},{
+  ues: 'niujie678',
+  secretp: 'vjiLXPk44ujbqPj01Q',
+  inviteId: 'ZXTKT0124KQ2GkdM81PfFjRWn6-7zx55awQ',
+  max: false
+},{
+  ues: 'wdwMJcEGPKgMlq',
+  secretp: 'pzWJe9o-kZizn-PFxdqVSJex',
+  inviteId: 'ZXTKT019-ak0PWRKgCO3W02JyLYFjRWn6-7zx55awQ',
+  max: false
+},{
+  ues: 'wdovJvWPLhUUqC',
+  secretp: 'pzWRQNorg4-vvNHd2OiVSP97',
+  inviteId: 'ZXTKT019-aksBmRfkjSreH-R1YQFjRWn6-7zx55awQ',
+  max: false
+},{
+  ues: 'wdfxtlDMXHbaHu',
+  secretp: 'pzWYTuQxkJK7nObp4d6VSA2E',
+  inviteId: 'ZXTKT019-aklCFpFgSm_WEil7LIFjRWn6-7zx55awQ',
+  max: false
+},{
+  ues: 'hajiuhajiu2067',
+  secretp: 'uDCUX-U1tbWKoba4n5yVSPth',
+  inviteId: 'ZXTKT0195qwpGVtBpA6OZRj0kvAFjRWn6-7zx55awQ',
+  max: false
+},{
+  ues: 'jd_MeIGpveNviIE',
+  secretp: 'ujWhe_UUk6-Vscr-wOKsSHnZ_Q',
+  inviteId: 'ZXTKT0205KkcPUtgghSRdWSyzY5_FjRWn6-7zx55awQ',
+  max: false
 }];
 $.pkInviteList = [];
 $.secretpInfo = {};
